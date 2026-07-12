@@ -1,5 +1,5 @@
 {
-  "name": "@skaldoe/media-library-layer",
+  "name": "@skaldoe/nuxt-media-library-layer",
   "type": "module",
   "version": "0.1.0",
   "main": "./nuxt.config.ts"
