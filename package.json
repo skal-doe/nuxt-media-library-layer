@@ -1,0 +1,30 @@
+{
+  "name": "@skaldoe/nuxt-media-library-layer",
+  "version": "0.2.0",
+  "description": "Layer Nuxt pour la gestion complète d'une médiathèque (dossiers, corbeille, sélection unique/multiple)",
+  "type": "module",
+  "main": "./nuxt.config.ts",
+  "license": "MIT",
+  "exports": {
+    ".": "./nuxt.config.ts",
+    "./types": "./types/index.d.ts"
+  },
+  "peerDependencies": {
+    "@nuxt/ui": "^3.0.0",
+    "nuxt": "^3.12.0",
+    "nuxt-auth-sanctum": ">=0.4.0"
+  },
+  "peerDependenciesMeta": {
+    "nuxt-auth-sanctum": {
+      "optional": true
+    }
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4",
+    "vue": "^3.5.0"
+  }
+}
